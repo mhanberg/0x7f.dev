@@ -1,0 +1,56 @@
+baseURL: "https://0x7f.dev/"
+languageCode: en-us
+title: 0x7f Inc.
+enableGitInfo: true
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    noHl: false
+    style: solarized-light
+    tabWidth: 2
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+    ordered: false
+params:
+  favicon: favicon.png
+  description: 0x7f Inc. is Andrei Crnkovic's tiny Elixir freelancing development company.
+  themeConfig:
+    appearance: auto
+    backHomeText: 0x7f Inc.
+    dateFormat: "2006-01-02"
+    showDescription: false
+  homePage:
+    - title: Engineering blog
+      post_list:
+        section: post
+        limit: 5
+        show_more: true
+        show_more_text: See more...
+        show_more_url: post
+    - title: Personal notes
+      post_list:
+        section: personal
+        limit: 5
+        show_more: true
+        show_more_text: See more...
+        show_more_url: posts
+    - title: Links
+      entries:
+        - title: >-
+            My bookeeping startup <a
+            href='https://smartaccount.hr/?ref=ref_oe9160rk34spjiajug000'>SmartAccount</a>
+        - title: "My <a href='https://github.com/andreicek'>Github</a>"
+        - title: "My <a href='https://www.last.fm/user/older_andreicek'>Last.fm</a>"
+        - title: This website uses <a href='index.xml'>rss</a>
+        - title: Legal info
+          url: /legal

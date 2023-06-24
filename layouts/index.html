@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<header>
+    {{ $logo := resources.Get "logo.svg" | fingerprint }}
+    <img src="{{ $logo.Permalink }}" alt="Logo" />
+
+    {{- if $.Site.Params.themeConfig.showDescription -}}
+
+    <p>{{ $.Site.Params.description }}</p>
+    {{- end -}}
+</header>
+{{ .Content }} {{ partial "menu_item.html" (dict "context" . "collection"
+$.Site.Params.homePage) }} {{ end }}
