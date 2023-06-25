@@ -19,4 +19,17 @@
   {{ $scss := resources.Get "main.scss" }} {{ $style := $scss | resources.ToCSS
   | fingerprint }}
   <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" />
+
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="Engineering blog on 0x7f Inc."
+    href="{{ $.Site.BaseURL }}post/index.xml"
+  />
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="Personal notes on 0x7f Inc."
+    href="{{ $.Site.BaseURL }}personal/index.xml"
+  />
 </head>
