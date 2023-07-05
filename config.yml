@@ -51,7 +51,7 @@ params:
             href='https://smartaccount.hr/?ref=ref_oe9160rk34spjiajug000'>SmartAccount</a>
         - title: "My <a href='https://github.com/andreicek'>Github</a>"
         - title: "My <a href='https://www.last.fm/user/older_andreicek'>Last.fm</a>"
-        - title: "<a rel='me' href='https://social.lol/@0x7f'>@0x7f@social.lol</a>"
+        - title: "<a rel='me' href='https://hachyderm.io/@0x7f'>@0x7f@hachyderm.io</a>"
         - title: This website uses <a href='index.xml'>rss</a>
         - title: Legal info
           url: /legal
