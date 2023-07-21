@@ -1,0 +1,12 @@
+---
+- name: apply common configuration to all nodes
+  hosts: all
+  remote_user: andreicek
+  vars:
+    app_user: "web_0x7f"
+    deploy_ssh_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINJ6cKCIjbCZ6sjsJ1mry+iTiraDPowTQ1QiPPMZpAPW"
+    tailscale_authkey: "{{ lookup('env', 'TAILSCALE_KEY') }}"
+  roles:
+    - main
+    - artis3n.tailscale
+    - firewall

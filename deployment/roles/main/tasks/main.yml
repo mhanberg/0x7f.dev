@@ -1,0 +1,67 @@
+---
+- name: Install dependency packages
+  become: true
+  apt:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - nginx
+
+- name: Add the user
+  become: true
+  user:
+    name: "{{app_user}}"
+    shell: /bin/sh
+
+- name: Add the user to the group
+  become: true
+  user:
+    name: "www-data"
+    groups: "{{app_user}}"
+    append: yes
+
+- name: Set authorized key
+  become: true
+  become_user: "{{app_user}}"
+  authorized_key:
+    user: "{{app_user}}"
+    state: present
+    key: "{{ deploy_ssh_key }}"
+
+- name: Create a release directory if it does not exist
+  become: true
+  become_user: "{{app_user}}"
+  file:
+    path: "/home/{{app_user}}/release"
+    mode: "0755"
+    state: directory
+
+- name: Create a folder for SSL
+  become: true
+  become_user: "{{app_user}}"
+  file:
+    path: "/home/{{app_user}}/ssl"
+    mode: "0755"
+    state: directory
+
+- name: Copy certificates
+  become: true
+  become_user: "{{app_user}}"
+  copy:
+    src: "{{ item }}"
+    dest: "/home/{{app_user}}/ssl/"
+  with_items:
+    - files/certificate.crt
+    - files/certificate.key
+
+- name: Copy vhost
+  become: true
+  copy:
+    src: files/0x7f.conf
+    dest: "/etc/nginx/sites-enabled/0x7f"
+
+- name: start nginx
+  become: true
+  service:
+    name: nginx
+    state: reloaded
