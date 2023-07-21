@@ -391,7 +391,7 @@ Our header will contain a couple of things:
 So putting this together:
 
 ```elixir
-header = ~b(23 02 03 E&) <> <<0::size(64)>>
+header = ~b(23 02 03 E7) <> <<0::size(64)>>
 id = ~b(56 17 C3 1E)
 ```
 
