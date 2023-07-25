@@ -587,7 +587,7 @@ defmodule NtpServer.UdpServer do
 end
 ```
 
-And now for the logarithm (I used `dbg/0` to explain everything):
+And now for the algorithm (I used `dbg/0` to explain everything):
 
 ```elixir
 string #=> "e3 00 03 fa"
