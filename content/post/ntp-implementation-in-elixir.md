@@ -495,6 +495,8 @@ I've also had fun implementing my own custom sigil, which I am not sure if I wou
 
 And in the end I ended up finally understanding `tcpdump` and how it can be used to inspect traffic. Take a look at Wireshark for easier to read preview of `pcap` files.
 
+Oh, and just to mention this can't be used to fake uptime... Unfortunately for me, but probably for the best, `uptime` does not work by comparing time with the one got from NTP.
+
 ### Appendix A - Creating and setting up a basic Elixir app with `mix`
 
 Take a look at the Github repo[^25] that follows this post to see the complete image, but here are the steps how you can set up yours. First up you need to create a new `mix` project with:
