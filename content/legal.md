@@ -13,4 +13,8 @@ Društvo je upisano u sudski registar Trgovačkog suda u Zagrebu pod brojevima M
 - **Bank name:** Privredna Banka Zagreb d.d.
 - **Bank address:** Radnička 50, 10000 Zagreb, Republika Hrvatska
 
+## Povezani dokumenti
+
 [Politika o privatnosti](/privacy-policy) prilikom korištenja aplikacija 0x7f d.o.o.
+
+[Opći uvjeti](/terms-and-conditions) poslovanja knjigovodstvenog ureda 0x7f d.o.o.
