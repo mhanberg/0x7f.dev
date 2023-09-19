@@ -134,4 +134,4 @@ O mogućim izmjenama i dopunama Politike korisnici će biti pravovremeno obavje�
 
 ---
 
-[Politika privatnosti.pdf](https://0x7f.s3.eu-central-1.amazonaws.com/Politika+privatnosti.pdf)
+[Politika privatnosti.pdf](https://dl.0x7f.dev/Politika%20privatnosti.pdf)

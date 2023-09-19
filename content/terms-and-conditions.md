@@ -219,4 +219,4 @@ Ovi Opći uvjeti primjenjuju se od 2023-01-01.
 
 ---
 
-[Opći uvjeti poslovanja knjigovodstvenog ureda.pdf](https://0x7f.s3.eu-central-1.amazonaws.com/Opc%CC%81i+uvjeti+poslovanja+knjigovodstvenog+ureda.pdf)
+[Opći uvjeti poslovanja knjigovodstvenog ureda.pdf](https://dl.0x7f.dev/Opc%CC%81i%20uvjeti%20poslovanja%20knjigovodstvenog%20ureda.pdf)
