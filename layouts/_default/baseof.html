@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ $.Site.LanguageCode }}">
-    {{- partial "head.html" . -}}
-    <body a="{{ $.Site.Params.themeConfig.appearance | default "auto" }}">
-        <main class="page-content" aria-label="Content">
-            <div class="w">
-                {{- block "main" . }}{{- end }}
+{{- partial "head.html" . -}}
 
-                {{ with .GitInfo }}
-                <p class="build-info">{{ .Hash }}</p>
-                {{ end }}
-            </div>
-        </main>
-    </body>
+<body a="{{ $.Site.Params.themeConfig.appearance | default " auto" }}">
+  <main class="page-content" aria-label="Content">
+    <div class="w">
+      {{- block "main" . }}{{- end }}
+    </div>
+  </main>
+</body>
+
 </html>

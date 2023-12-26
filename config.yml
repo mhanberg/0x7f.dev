@@ -25,7 +25,7 @@ params:
   favicon: favicon.png
   description: 0x7f Inc. is Andrei Crnkovic's tiny Elixir freelancing development company.
   themeConfig:
-    appearance: auto
+    appearance: light
     backHomeText: 0x7f Inc.
     dateFormat: "2006-01-02"
     showDescription: false
@@ -50,6 +50,7 @@ params:
             My bookeeping startup <a
             href='https://smartaccount.hr/?ref=ref_oe9160rk34spjiajug000'>SmartAccount</a>
         - title: "My <a href='https://github.com/andreicek'>Github</a>"
+        - title: "My <a href='https://twitter.com/andreicek'>Twitter</a>"
         - title: "<a rel='me' href='https://hachyderm.io/@0x7f'>@0x7f@hachyderm.io</a>"
         - title: This website uses <a href='index.xml'>rss</a>
         - title: Legal info
