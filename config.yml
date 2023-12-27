@@ -59,4 +59,4 @@ params:
         - title: "<a rel='me' href='https://hachyderm.io/@0x7f'>@0x7f@hachyderm.io</a>"
         - title: This website uses <a href='index.xml'>rss</a>
         - title: Legal info
-          url: /legal
+          url: https://smartaccount.hr/legal
