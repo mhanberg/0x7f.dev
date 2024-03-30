@@ -47,9 +47,8 @@ params:
     - title: Upcoming speaking events
       entries:
         - title: 2024-02-03 <a href='https://fosdem.org/2024/schedule/event/fosdem-2024-2256-implementing-udp-protocols-in-elixir/'>Implementing UDP protocols in Elixir @ FOSDEM</a>
-        - title: 2024-04-23 TBD @ EExConf Zagreb
         - title: 2024-05-10 Scaling Work Queues with Oban @ Weblica
-        - title: 2024-05-15 Your router sucks @ DORS/CLUC
+        - title: 2024-05-15 Co-organiser at DORS/CLUC
     - title: Links
       entries:
         - title: >-
