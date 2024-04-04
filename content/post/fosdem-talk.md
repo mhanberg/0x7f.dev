@@ -1,5 +1,5 @@
 ---
-title: FOSDEM '24 - Impelenting UDP protocols in Elixir
+title: FOSDEM '24 - Implementing UDP protocols in Elixir
 date: 2024-02-05
 tags: ["elixir", "udp", "fosdem", "udp", "talk"]
 ---
